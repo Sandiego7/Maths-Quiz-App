@@ -1,5 +1,5 @@
 #highScoresList {
-    list-style: none;
+    /* list-style: none; */
     padding-left: 0;
     margin-bottom: 4rem;
 }
@@ -7,6 +7,28 @@
 .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
+}
+
+#highScores li:nth-child(1) {
+    background-color: blue;
+}
+
+#highScores li:nth-child(1) span{
+    color: white;
+}
+
+#highScores li:nth-child(1){
+    position: relative;
+}
+#highScores li:nth-child(1)::after{
+    content: url('../Joy\ Ewunonu_Passport.jpeg');
+
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    object-fit: cover;
 }
 
 .high-score:hover {
