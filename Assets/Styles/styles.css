@@ -41,10 +41,11 @@ h3 {
 
 .container {
     align-items: center;
+    border: 0.1rem solid black;
     display: flex;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
-    margin: 0 auto;
+    margin: 5rem auto;
     max-width: 80rem;
     padding: 2rem;
     width: 100vw;
