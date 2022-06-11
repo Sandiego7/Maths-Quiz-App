@@ -67,6 +67,7 @@ getNewQuestion = () => {
         //go to the end page
         return window.location.assign("../end.html");
     }
+    console.log(score);
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //Update the progress bar
@@ -111,5 +112,5 @@ choices.forEach(choice => {
 
 incrementScore = num => {
     score += num;
-    scoreText.innerText = score;
+    // scoreText.innerText = score;
 };
